@@ -18,8 +18,8 @@
         android:layout_width="289dp"
         android:layout_height="wrap_content"
         android:text="Cadastrar"
-        android:layout_below="@+id/listLista"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginBottom="23dp" />
 
 </RelativeLayout>

@@ -32,21 +32,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listLista = (ListView) findViewById(R.id.listLista);
         btnCadastro = (Button) findViewById(R.id.btnCadastro);
-        btnBuscar = (Button) findViewById(R.id.btnBuscar);
         registerForContextMenu(listLista);
 
         btnCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, Formulario.class);
-                startActivity(i);
-            }
-        });
-
-        btnBuscar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, Buscar.class);
                 startActivity(i);
             }
         });
